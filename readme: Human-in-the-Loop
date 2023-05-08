@@ -1,13 +1,14 @@
-We forked an existing MIT project called chexpert. Their code is our AI system that is being audited. 
+We forked an existing MIT project called Chexpert. Their code is our AI system that is being audited. 
 The system receives chest X-rays and suggests diagnosis, using Convolutional Neural Network for image classification.  
 
-We also used other versions of the same project (the MIT project was a competition) to develope better view. 
-An example that was specially helpful is: https://github.com/gaetandi/cheXpert 
+We also used other versions of the same project (the MIT project was a competition) to develop a better view. 
+An example that was especially helpful is: https://github.com/gaetandi/cheXpert 
 
 We downloaded extra data from Stanford AIMI Shared Datasets: https://stanfordaimi.azurewebsites.net/datasets/23c56a0d-15de-405b-87c8-99c30138950c 
-The data is annotated by multiple experts (radialogists). We combined these different expert suggestions and made a data we called ground truth.
+The data is annotated by multiple experts (radiologists). We combined these different expert suggestions and made data we called ground truth.
 
-We used this data that is unseen by the AI system to test the system and compare its performance by the one of the experts annotations.
+We used this data, which is unseen by the AI system, to test the system. We compare the performance of our system with the performance of an expert.
+
 We showed that using AI improves the diagnosing performance both in terms of time and accuracy for most disease categories.
 
 
